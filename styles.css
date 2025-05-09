@@ -1,0 +1,198 @@
+@font-face {
+    font-family: links-awakening;
+    src: url(./fonts/ZeldaDXTTBRK.ttf);
+}
+
+body {
+    font-family: "Noto Sans", "Trebuchet MS", Optima, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #001422;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+}
+
+h2 {
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ul {
+    margin: 15px 0 0 0;
+    padding-left: 20px;
+}
+
+.story {
+    margin: 15px 0 0 0;
+    padding-left: 10px;
+    border-left: solid #ffffff;
+}
+
+.instructions {
+    margin: 15px 0 0 0;
+}
+
+.github {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+    width: 100%;
+    background: #001e2c;
+}
+
+.sections {
+    display: flex;
+    padding-left: 24px;
+    gap: 32px;
+}
+
+.sections a,
+.credits a {
+    text-decoration: none;
+}
+
+.credits {
+    display: flex;
+    font-family: links-awakening, "Noto Sans", "Trebuchet MS", Optima, Verdana, sans-serif;
+    font-size: 20px;
+    padding-right: 24px;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.description {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 24px;
+    width: 100%;
+}
+
+.download {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #000f1e;
+}
+
+.downloadButton {
+    font-family: "Noto Sans", "Trebuchet MS", Optima, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    background: #00000000;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+.downloadButton:hover {
+    cursor: pointer;
+}
+
+.downloadButton a {
+    text-decoration: none;
+}
+
+.downloadText {
+    margin: 20px 0 14px;
+}
+
+.downloadCode {
+    font-family: "Noto Sans", "Trebuchet MS", Optima, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    background: #00000000;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+.download .meat-and-potatoes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000f1e;
+}
+
+.download 
+
+.history {
+    font-size: 14px;
+}
+
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.description .footer {
+    padding-bottom: 24px;
+}
